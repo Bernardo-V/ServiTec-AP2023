@@ -15,12 +15,8 @@ Este proyecto corresponde al Proyecto Integrador Java Intermedio. Correspondient
 
 Este proyecto fué generado con 🛠️ [Java](https://www.java.com/es/) version 8.
 ## Entidades:
-•	Header: Redes sociales y botón de login.
-•	Acerca de mi.
-•	Experiencia laboral.
-•	Educación.
-•	Hard & Soft Skills.
-•	Proyectos realizados.
+•	.
+
 ## Estado del proyecto 📌
 Primera versión: En esta primera iteración nos encargaremos de modelar, a nivel datos y objetos, una solución
 al dominio presentado. Además, comenzaremos con el proceso de codificación de la solución.
