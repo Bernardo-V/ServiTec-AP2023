@@ -5,8 +5,8 @@ import java.util.Date;
 public class Contrato {
     private int id_contrato;
    // private int id_cliente;
-    private Cliente cliente; // Un único servicio asociado con el contrato
-    private Servicio servicio; // Un único servicio asociado con el contrato
+    private int id_cliente; // Un único clinte asociado con el contrato
+    private int id_servicio; // Un único servicio asociado con el contrato
     private Date fecha_inicio;
     private Date fecha_fin;
     private String estado;
@@ -16,10 +16,10 @@ public class Contrato {
     }
 
     // Constructor con todos los atributos
-    public Contrato(int id_contrato, Cliente cliente, Servicio servicio, Date fecha_inicio, Date fecha_fin, String estado) {
+    public Contrato(int id_contrato, int id_cliente, int id_servicio, Date fecha_inicio, Date fecha_fin, String estado) {
         this.id_contrato = id_contrato;
-        this.cliente = cliente;
-        this.servicio = servicio;
+        this.id_cliente = id_cliente;
+        this.id_servicio = id_servicio;
         this.fecha_inicio = fecha_inicio;
         this.fecha_fin = fecha_fin;
         this.estado = estado;
@@ -62,27 +62,29 @@ public class Contrato {
     }
 
    
-    public Servicio getServicio() {
-        return servicio;
+    public int getId_servicio() {
+        return id_servicio;
     }
 
-    public void setServicio(Servicio servicio) {
-        this.servicio = servicio;
+    public void setId_servicio(int id_servicio) {
+        this.id_servicio = id_servicio;
+    }
+
+    public int getId_cliente() {
+        return id_cliente;
+    }
+
+    public void setId_cliente(int id_cliente) {
+        this.id_cliente = id_cliente;
     }
     
-    public Cliente getCliente() {
-        return cliente;
-    }
 
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
-    }
     // Método que recibe un objeto Contrato y devuelve el Servicio asociado
-    public Servicio obtenerServicioDelContrato(Contrato contrato) {
+    public int obtenerServicioDelContrato(Contrato contrato) {
         if (contrato != null) {
-            return contrato.getServicio();
+            return contrato.getId_servicio();
         } else {
-            return null; // O manejar la situación de un contrato nulo según sea necesario
+            return 0; // O manejar la situación de un contrato nulo según sea necesario
         }
     }
     
