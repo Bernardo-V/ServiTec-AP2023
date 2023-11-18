@@ -13,6 +13,10 @@ Este proyecto corresponde al Proyecto Integrador Java Intermedio. Correspondient
 •	Velazquez, Bernardo.
 •	Zaoral, Lousinette.
 
+## DER:
+
+![img](https://i.postimg.cc/05dzB7nB/DER.png)
+
 Este proyecto fué generado con 🛠️ [Java](https://www.java.com/es/) version 8.
 ## Entidades:
 •	.
