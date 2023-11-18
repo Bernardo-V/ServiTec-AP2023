@@ -39,5 +39,5 @@ Herramientas y Tecnologías utilizadas
 ## Agradecimientos: 🎁
 
 * A cada uno de mis compañeros, que estuvieron a toda hora 🍺/☕
-* Al profe Jaime Nahuel, Ramirez Lorca 🤓.
+* A los profes Jaime Nahuel, Ramirez Lorca e Ignacio, Borda 🤓.
 * A nuestras familias ❤️* 
