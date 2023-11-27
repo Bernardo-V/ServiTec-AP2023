@@ -1,8 +1,8 @@
 package controlador;
 
-public class Incidente {
+public class IncidenteControlador {
 
-	public Incidente() {
+	public IncidenteControlador() {
 		// TODO Auto-generated constructor stub
 	}
 
